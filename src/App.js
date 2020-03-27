@@ -1,10 +1,10 @@
 import React from 'react';
+import './global.css';
+import Login from './pages/Login';
 
 
-function App() {
+export default function App() {
   return (
-    <h1>Hello World!</h1>
+    <Login/>
   );
 }
-
-export default App;
